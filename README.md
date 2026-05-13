@@ -101,6 +101,23 @@ student-performance/
 
 ---
 
+## 🌍 Live Deployment (Render)
+
+To host the backend AI on **Render**, use the following configuration:
+
+| Setting | Value |
+| :--- | :--- |
+| **Runtime** | `Python 3` |
+| **Root Directory** | `backend` |
+| **Build Command** | `pip install -r requirements.txt` |
+| **Start Command** | `gunicorn -k uvicorn.workers.UvicornWorker main:app` |
+
+*Note: Ensure the Machine Learning model (`model.pkl`) is pushed to your repository for the API to function.*
+
+---
+
+---
+
 ## 🛣️ Future Roadmap
 
 - [ ] 📈 **Data Visualization**: Adding interactive charts for performance trends.
