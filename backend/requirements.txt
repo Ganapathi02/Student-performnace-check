@@ -7,3 +7,8 @@ pydantic
 flask
 gunicorn
 numpy
+flask
+gunicorn
+pandas
+numpy
+scikit-learn
