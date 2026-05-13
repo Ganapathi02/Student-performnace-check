@@ -12,8 +12,16 @@ logger = logging.getLogger("student-ai-backend")
 app = FastAPI(
     title="Student Performance AI API",
     description="Professional API for predicting student exam scores based on habits.",
-    version="1.1.0"
+    version="1.2.0"
 )
+
+@app.get("/")
+async def root():
+    return {
+        "message": "Welcome to the Student Performance AI API",
+        "documentation": "/docs",
+        "health_check": "/health"
+    }
 
 # Professional CORS Configuration
 app.add_middleware(

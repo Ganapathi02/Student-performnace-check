@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Student Performance",
-  description: "Student Performance Analysis",
+  title: "Student Performance AI",
+  description: "Advanced AI-powered analysis of student academic habits and performance predictions.",
   icons: {
     icon: "/std.jpg",
   },
