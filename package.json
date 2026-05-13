@@ -1,0 +1,9 @@
+{
+  "name": "student-performance-ai",
+  "version": "1.2.0",
+  "description": "One-command launcher for Student Performance AI",
+  "scripts": {
+    "dev:all": "npx concurrently \"cd backend && python main.py\" \"cd frontend && npm run dev\"",
+    "install:all": "cd frontend && npm install && cd ../backend && pip install -r requirements.txt"
+  }
+}
