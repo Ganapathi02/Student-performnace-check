@@ -61,9 +61,11 @@ student-performance/
 
 ---
 
-## 🚀 Step-by-Step Installation
+## 🚀 How to Run Locally
 
-### **1. 🐍 Setting up the Backend**
+*Note: Open your terminal or Command Prompt (CMD) and follow these steps to get the project up and running.*
+
+### **1. 🐍 Running the Backend (API)**
 1. **Enter the engine room**:
    ```bash
    cd backend
@@ -85,7 +87,7 @@ student-performance/
    python main.py
    ```
 
-### **2. ⚛️ Setting up the Frontend**
+### **2. ⚛️ Running the Frontend (UI)**
 1. **Move to the dashboard**:
    ```bash
    cd frontend
@@ -98,6 +100,11 @@ student-performance/
    ```bash
    npm run dev
    ```
+
+### **3. 💻 Using VS Code Terminal**
+If you are using **VS Code**, you can open the integrated terminal (`Ctrl + ` `) and split the screen to run both the Backend and Frontend at the same time:
+1. **Terminal 1**: Follow the Backend steps.
+2. **Terminal 2**: Follow the Frontend steps.
 
 ---
 
