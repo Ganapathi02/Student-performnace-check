@@ -5,13 +5,6 @@ import joblib
 import pandas as pd
 import logging
 from typing import Dict, Any
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-def home():
-    return "Hello"
 # Configure logging for professional monitoring
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("student-ai-backend")
